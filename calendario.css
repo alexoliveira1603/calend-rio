@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Madimi One , sans-serif;
+    margin: auto;
+    font-style: normal;
+    background-color: rgb(39, 180, 133);
+}
+    
+h1{
+    font-size: 5vmax;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-info{
+    display: grid;
+    grid-template-columns:
+        200px 200px 200px 200px
+}
+
+.meses{
+    text-align: color;
+    margin: 10px;
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+    color: white
+    box-shadow: 0px 0px 0px 2px black;
+
+}
+
+.mes-Jan{
+    background-color: aqua;
+}
+
+.mes-Fev{
+    background-color: rgb(200, 255, 0);
+}
+
+.mes-Mar{
+    background-color: rgb(0, 81, 255);
+}
+
+.mes-Mar{
+    background-color: rgb(255, 0, 255);
+}
+
+.mes-Abr{
+    background-color: rgb(255, 0, 76);
+}
+
+.mes-Mai{
+    background-color: rgb(0, 183, 255);
+}
+
+.mes-Jun{
+    background-color: rgb(102, 255, 0);
+}
+
+.mes-Jun{
+    background-color: rgb(0, 255, 128);
+}
+
+.mes-Jul{
+    background-color: rgb(140, 0, 255);
+}
+
+.mes-Ago{
+    background-color: rgb(115, 255, 0);
+}
+
+.mes-Ago{
+    background-color: rgb(0, 47, 255);
+}
+
+.mes-Set{
+    background-color: rgb(247, 0, 255);
+}
+
+.mes-Out{
+    background-color: rgb(0, 255, 234);
+}
+
+.mes-Nov{
+    background-color: rgb(229, 255, 0);
+}
+
+.mes-Dez{
+    background-color: rgb(255, 145, 0);
+}
